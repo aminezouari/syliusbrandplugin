@@ -1,0 +1,4 @@
+---
+loevgaard_sylius_brand:
+  brand:
+    delete_error: 'Varumärket kunde inte raderas. Det är bundet till en eller flera produkter.'

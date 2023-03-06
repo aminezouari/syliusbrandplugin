@@ -1,0 +1,38 @@
+sylius_fixtures:
+    suites:
+        default:
+            fixtures:
+
+                product:
+                    options:
+                        custom:
+                            product_setono_cap:
+                                name: Setono Cap
+                                code: setono-cap
+                                main_taxon: caps
+                                taxons: [caps]
+                            product_setono_macbook_sticker:
+                                name: Setono T-Shirt
+                                code: setono-t_shirt
+                                main_taxon: t_shirts
+                                taxons: [t_shirts]
+
+                loevgaard_sylius_brand_plugin_brand:
+                    options:
+                        custom:
+                            brand_setono:
+                                name: Setono
+                                code: setono
+                                images:
+                                    - type: logo
+                                      path: '@LoevgaardSyliusBrandPlugin/Resources/fixtures/images/logos/setono.jpg'
+                                    - path: '@LoevgaardSyliusBrandPlugin/Resources/fixtures/images/logos/setono-borderless.png'
+                                products:
+                                    - setono-cap
+                                    - setono-t_shirt
+                            brand_sylius:
+                                name: Sylius
+                                code: sylius
+                                images:
+                                    - type: logo
+                                      path: '@LoevgaardSyliusBrandPlugin/Resources/fixtures/images/logos/sylius.png'

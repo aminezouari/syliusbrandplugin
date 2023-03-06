@@ -1,0 +1,4 @@
+---
+loevgaard_sylius_brand:
+  brand:
+    delete_error: "64/5000\nZnačku nelze smazat. Používá jej jeden nebo více produktů."
